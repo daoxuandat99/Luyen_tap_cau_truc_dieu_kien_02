@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check() {
+        let a = parseFloat(prompt('số tiền muốn vay:'));
+        let b = parseFloat(prompt('thời hạn vay:'));
+        //giả sử lãi xuất ngân hàng là 3% và công thức tính lãi xuất là: số tiền / thời hạn vay *100%
+        let c = a / b / 100;
+        alert('số tiền lãi là:' + c);
+    }
+    check();
+</script>
+</body>
+</html>

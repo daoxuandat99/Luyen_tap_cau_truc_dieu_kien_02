@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check() {
+        let a = parseFloat(prompt('số thu nhập:'));
+        // giả sử công thức tính phần trăm số doanh thu = số thu nhập * 12 / 100%
+        let b = a * 12 / 100;
+        // giả sử công thức tính thuế thu nhập = sô thu nhập cá nhân - 20% số doanh thu
+        let c = a - b;
+        alert('thuế thu nhập cá nhân là :' + c);
+    }
+
+    check();
+</script>
+</body>
+</html>
